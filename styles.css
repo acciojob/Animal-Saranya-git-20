@@ -1,1 +1,13 @@
-/*  your css code here. If applicable */
+.animal-photos{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+}
+body{
+	background-color:black;
+}
+img{
+	display:grid;
+	grid-template-columns: repeat(2, 10px) 1fr;
+	grid-template-rows:repeat(2,10px) 1fr;
+}
